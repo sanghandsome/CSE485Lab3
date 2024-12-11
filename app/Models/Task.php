@@ -8,4 +8,5 @@ class Task extends Model
 {
     //
     use HasFactory, Notifiable;
+    protected $fillable = ['title', 'description', 'is_completed'];
 }

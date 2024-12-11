@@ -10,17 +10,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('task.index') }}">Task List App</a>
+            <a class="navbar-brand" href="{{ route('tasks.index') }}">Task List App</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('task.index') }}">Danh sách Task</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('tasks.index') }}">Danh sách Task</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('task.create') }}">Thêm mới</a>
+                        <a class="nav-link" href="{{ route('tasks.create') }}">Thêm mới</a>
                     </li>
                 </ul>
             </div>
