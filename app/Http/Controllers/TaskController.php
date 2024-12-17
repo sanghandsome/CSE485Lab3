@@ -50,7 +50,7 @@ public function update(Request $request, Task $task)
         $request->validate([
             'title' => 'required|max:255',
         ]);
-
+        
         $task->update($request->all());
 
         return redirect()->route('tasks.index');
